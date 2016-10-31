@@ -1,0 +1,8 @@
+.icon {
+    display: inline-block;
+}
+
+.example {
+    @extend .icon;
+    @include sprite($example);
+}
